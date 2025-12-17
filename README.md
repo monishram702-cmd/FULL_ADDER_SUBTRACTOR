@@ -64,6 +64,7 @@ FULL SUBTRACTER :
 **Program:**
 
 FULL ADDER:
+   
    module fa(a,b,cin,sum,carry);
   
    input a,b,cin;
@@ -77,6 +78,7 @@ FULL ADDER:
    endmodule
 
 FULL SUBTRACTER:
+   
    module fs(a,b,bin,difference,borrow);
 
    input a,b,bin;
