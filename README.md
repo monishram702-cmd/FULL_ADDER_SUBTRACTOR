@@ -79,17 +79,17 @@ FULL ADDER:
 
 FULL SUBTRACTER:
    
-   module fs(a,b,bin,difference,borrow);
+    module fs(a,b,bin,difference,borrow);
 
-   input a,b,bin;
+    input a,b,bin;
 
-   output difference,borrow;
+    output difference,borrow;
 
-   assign difference= ( (a ^ b)^bin);
+    assign difference= ( (a ^ b)^bin);
 
-   assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
+    assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
 
-   endmodule
+    endmodule
  
  Developed by: MONISH . R
  RegisterNumber: 25017815
