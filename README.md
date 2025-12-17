@@ -65,17 +65,17 @@ FULL SUBTRACTER :
 
 FULL ADDER:
    
-   module fa(a,b,cin,sum,carry);
+    module fa(a,b,cin,sum,carry);
   
-   input a,b,cin;
+    input a,b,cin;
   
-   output sum,carry;
+    output sum,carry;
   
-   assign sum=( (a ^ b)^cin);
+    assign sum=( (a ^ b)^cin);
   
-   assign carry= ( (a & b)| ( cin &(a ^ b )));
+    assign carry= ( (a & b)| ( cin &(a ^ b )));
   
-   endmodule
+    endmodule
 
 FULL SUBTRACTER:
    
